@@ -1,4 +1,3 @@
-// Write your code here
 import "./credititem.css";
 
 const CreditItem = (props) => {
