@@ -1,0 +1,89 @@
+.cashcreditContainer {
+  background-color: #382f5a;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  color: white;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.profileimg {
+  background-color: #c7d2fe;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c3aed;
+  font-weight: bold;
+}
+
+.userName {
+  margin-left: 10px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.balance-details {
+  color: #585076;
+}
+
+.balance-details:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number-balance {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.curnery {
+  font-size: 12px;
+  color: #585076;
+}
+
+.credit-container {
+  margin-top: 20px;
+}
+
+.creditHeading {
+  font-size: 20px;
+}
+
+.money-credit {
+  color: #585076;
+}
+
+.add-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.add-conatainer {
+  color: aliceblue;
+}
+
+.add-cash {
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 10px;
+}

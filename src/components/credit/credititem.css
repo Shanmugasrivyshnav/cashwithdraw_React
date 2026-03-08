@@ -1,0 +1,16 @@
+.credit-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.credit-item:hover {
+  background-color: #1976d2;
+}
