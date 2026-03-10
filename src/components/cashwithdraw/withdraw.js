@@ -2,9 +2,9 @@ import { Component } from "react";
 
 import DenominationItem from "../denomination/denominate";
 
-import CreditItem from "../credit/credititem";
-
 import "./withdraw.css";
+
+import CreditItem from "../credit/credititem";
 
 class CashWithdrawal extends Component {
   state = { balance: 2000 };
@@ -50,9 +50,14 @@ class CashWithdrawal extends Component {
                   cashWithdraw={this.onWithdraw}
                 />
               ))}
+            </ul>
+            <div className="add-conatainer">
+              <h1 className="add-cash">Add Cash</h1>
+            </div>
+            <ul className="add-list">
               {creditList.map((credit) => (
                 <CreditItem
-                  key={creditList.id}
+                  key={credit.id}
                   creditDetails={credit}
                   cashCredit={this.onCredit}
                 />

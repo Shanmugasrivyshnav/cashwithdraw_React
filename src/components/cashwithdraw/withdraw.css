@@ -52,7 +52,7 @@
 }
 
 .balance-details {
-  color: #585076;
+  color: white;
 }
 
 .balance-details:nth-child(2) {
@@ -80,7 +80,7 @@
 }
 
 .money-withdraw {
-  color: #585076;
+  color: #ffffff;
 }
 
 .denominations-list {
@@ -88,4 +88,21 @@
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
+}
+
+.add-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.add-conatainer {
+  color: aliceblue;
+}
+
+.add-cash {
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 10px;
 }

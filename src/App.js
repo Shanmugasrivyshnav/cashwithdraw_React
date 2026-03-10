@@ -1,7 +1,5 @@
 import CashWithdrawal from "./components/cashwithdraw/withdraw";
 
-import CashCredit from "./components/cashcredit/addcash";
-
 import "./App.css";
 
 const denominationsList = [
@@ -41,9 +39,11 @@ const creditList = [
   },
 ];
 const App = () => (
-  <CashWithdrawal
-    denominationsList={denominationsList}
-    creditList={creditList}
-  />
+  <div className="app-container">
+    <CashWithdrawal
+      denominationsList={denominationsList}
+      creditList={creditList}
+    />
+  </div>
 );
 export default App;
