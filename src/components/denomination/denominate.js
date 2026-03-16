@@ -16,8 +16,9 @@ const DenominationItem = (props) => {
         className="denomination-button"
         onClick={onClickWithdraw}
       >
-        {value}
+        {value + 5}
       </button>
+<button className = 'btn' type="button" >just for commit the day </button>
     </li>
   );
 };
