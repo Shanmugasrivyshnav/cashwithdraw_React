@@ -6,7 +6,7 @@ const DenominationItem = (props) => {
   const { value } = denominationDetails;
 
   const onClickWithdraw = () => {
-    cashWithdraw(value);
+    cashWithdraw(value + 1);
   };
 
   return (
