@@ -6,7 +6,7 @@ const DenominationItem = (props) => {
   const { value } = denominationDetails;
 
   const onClickWithdraw = () => {
-    cashWithdraw(value + 1);
+    cashWithdraw(value);
   };
 
   return (
@@ -16,7 +16,7 @@ const DenominationItem = (props) => {
         className="denomination-button"
         onClick={onClickWithdraw}
       >
-        {value + 5}
+        {value}
       </button>
 <button className = 'btn' type="button" >just for commit the day </button>
     </li>
